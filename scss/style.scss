@@ -1,0 +1,26 @@
+$color: green;
+$bg-black: #000;
+$font:'Roboto', sans-serif;
+
+
+h1{
+    color: $color;
+    font-family: $font;
+    font-weight: 700;
+}
+
+.box{
+    width: 1170px;
+    margin: auto;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li{
+        display: inline-block;
+        a{
+            background-color: $bg-black;
+        }
+    }
+}
